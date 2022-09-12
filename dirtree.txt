@@ -1,0 +1,1308 @@
+/
+├── LICENSE
+├── README.md
+├── bin
+│   ├── ar
+│   ├── as
+│   ├── bas
+│   ├── cat
+│   ├── cc
+│   ├── cdb
+│   ├── chgrp
+│   ├── chmod
+│   ├── chown
+│   ├── clri
+│   ├── cmp
+│   ├── cp
+│   ├── date
+│   ├── db
+│   ├── dc
+│   ├── dcheck
+│   ├── dd
+│   ├── df
+│   ├── dsw
+│   ├── du
+│   ├── dump
+│   ├── echo
+│   ├── ed
+│   ├── exit
+│   ├── fc
+│   ├── file
+│   ├── goto
+│   ├── icheck
+│   ├── if
+│   ├── kill
+│   ├── ld
+│   ├── ln
+│   ├── login
+│   ├── ls
+│   ├── mail
+│   ├── mkdir
+│   ├── mv
+│   ├── ncheck
+│   ├── newgrp
+│   ├── nm
+│   ├── od
+│   ├── opr
+│   ├── passwd
+│   ├── pr
+│   ├── ps
+│   ├── restor
+│   ├── rew
+│   ├── rm
+│   ├── rmdir
+│   ├── sh
+│   ├── size
+│   ├── sort
+│   ├── strip
+│   ├── stty
+│   ├── su
+│   ├── sum
+│   ├── sync
+│   ├── time
+│   ├── tp
+│   ├── tty
+│   ├── uniq
+│   ├── who
+│   └── write
+├── dev
+├── dirtree.txt
+├── etc
+│   ├── cron
+│   ├── dtab
+│   ├── getty
+│   ├── glob
+│   ├── group
+│   ├── init
+│   ├── lpd
+│   ├── mkfs
+│   ├── mknod
+│   ├── mount
+│   ├── mtab
+│   ├── passwd
+│   ├── rc
+│   ├── ttys
+│   ├── umount
+│   ├── update
+│   ├── utmp
+│   └── wall
+├── hpunix
+├── lib
+│   ├── as2
+│   ├── c0
+│   ├── c1
+│   ├── c2
+│   ├── crt0.o
+│   ├── fc0
+│   ├── fc1
+│   ├── fcrt0.o
+│   ├── filib.a
+│   ├── fr0.o
+│   ├── liba.a
+│   ├── libc.a
+│   ├── libf.a
+│   ├── libp.a
+│   ├── libs.a
+│   ├── liby.a
+│   ├── lpr
+│   ├── mcrt0.o
+│   └── tmgb
+├── mnt
+├── rkunix
+├── rpunix
+├── tmp
+├── unix
+└── usr
+    ├── adm
+    ├── bin
+    │   ├── ac
+    │   ├── banner
+    │   ├── bc
+    │   ├── bcd
+    │   ├── cal
+    │   ├── chk
+    │   ├── col
+    │   ├── comm
+    │   ├── cpall
+    │   ├── cref
+    │   ├── crpost
+    │   ├── crypt
+    │   ├── diff
+    │   ├── fed
+    │   ├── find
+    │   ├── form
+    │   ├── grep
+    │   ├── gsi
+    │   ├── index
+    │   ├── m6
+    │   ├── mesg
+    │   ├── neqn
+    │   ├── nice
+    │   ├── nohup
+    │   ├── nroff
+    │   ├── pfe
+    │   ├── prof
+    │   ├── ptx
+    │   ├── pwd
+    │   ├── quiz
+    │   ├── rc
+    │   ├── roff
+    │   ├── sa
+    │   ├── sleep
+    │   ├── sno
+    │   ├── split
+    │   ├── tbl
+    │   ├── tee
+    │   ├── tmg
+    │   ├── tr
+    │   ├── typo
+    │   ├── units
+    │   ├── upost
+    │   ├── usort
+    │   ├── wc
+    │   └── yacc
+    ├── doc
+    │   ├── as
+    │   │   └── as
+    │   ├── bc
+    │   │   ├── bc
+    │   │   ├── bca
+    │   │   └── dc
+    │   ├── beg
+    │   │   ├── abs
+    │   │   ├── u
+    │   │   ├── u0
+    │   │   ├── u1
+    │   │   ├── u2
+    │   │   ├── u3
+    │   │   ├── u4
+    │   │   ├── u5
+    │   │   └── u6
+    │   ├── c
+    │   │   ├── c0
+    │   │   ├── c1
+    │   │   ├── c2
+    │   │   ├── c3
+    │   │   ├── c4
+    │   │   ├── c5
+    │   │   ├── c6
+    │   │   └── ca
+    │   ├── ctut
+    │   │   ├── ct0
+    │   │   ├── ct1
+    │   │   ├── ct2
+    │   │   ├── ct3
+    │   │   ├── ct4
+    │   │   ├── ct5
+    │   │   ├── ct6
+    │   │   ├── ct7
+    │   │   ├── ct8
+    │   │   └── ct9
+    │   ├── ed
+    │   │   ├── e0
+    │   │   ├── e1
+    │   │   ├── e2
+    │   │   ├── e3
+    │   │   ├── e4
+    │   │   ├── e5
+    │   │   ├── e6
+    │   │   └── e7
+    │   ├── hel
+    │   │   ├── hel0
+    │   │   ├── hel1
+    │   │   ├── hel2
+    │   │   ├── hel3
+    │   │   ├── hel4
+    │   │   ├── hel5
+    │   │   └── junk
+    │   ├── iolib
+    │   │   └── iolib
+    │   ├── iosys
+    │   │   └── iosys
+    │   ├── man
+    │   │   ├── man0
+    │   │   │   ├── basinf
+    │   │   │   ├── intro
+    │   │   │   ├── kaa
+    │   │   │   ├── naa
+    │   │   │   ├── ptx
+    │   │   │   ├── taa
+    │   │   │   ├── toc
+    │   │   │   ├── tocrc
+    │   │   │   └── xx
+    │   │   ├── man1
+    │   │   │   ├── ar.1
+    │   │   │   ├── as.1
+    │   │   │   ├── bas.1
+    │   │   │   ├── bc.1
+    │   │   │   ├── cat.1
+    │   │   │   ├── cc.1
+    │   │   │   ├── cdb.1
+    │   │   │   ├── chdir.1
+    │   │   │   ├── chmod.1
+    │   │   │   ├── cmp.1
+    │   │   │   ├── comm.1
+    │   │   │   ├── cp.1
+    │   │   │   ├── cref.1
+    │   │   │   ├── date.1
+    │   │   │   ├── db.1
+    │   │   │   ├── dc.1
+    │   │   │   ├── dd.1
+    │   │   │   ├── diff.1
+    │   │   │   ├── dsw.1
+    │   │   │   ├── du.1
+    │   │   │   ├── echo.1
+    │   │   │   ├── ed.1
+    │   │   │   ├── eqn.1
+    │   │   │   ├── exit.1
+    │   │   │   ├── fc.1
+    │   │   │   ├── file.1
+    │   │   │   ├── find.1
+    │   │   │   ├── goto.1
+    │   │   │   ├── grep.1
+    │   │   │   ├── if.1
+    │   │   │   ├── kill.1
+    │   │   │   ├── ld.1
+    │   │   │   ├── ln.1
+    │   │   │   ├── login.1
+    │   │   │   ├── ls.1
+    │   │   │   ├── mail.1
+    │   │   │   ├── man.1
+    │   │   │   ├── mesg.1
+    │   │   │   ├── mkdir.1
+    │   │   │   ├── mv.1
+    │   │   │   ├── neqn.1
+    │   │   │   ├── newgrp.1
+    │   │   │   ├── nice.1
+    │   │   │   ├── nm.1
+    │   │   │   ├── nohup.1
+    │   │   │   ├── nroff.1
+    │   │   │   ├── od.1
+    │   │   │   ├── opr.1
+    │   │   │   ├── passwd.1
+    │   │   │   ├── pfe.1
+    │   │   │   ├── pr.1
+    │   │   │   ├── prof.1
+    │   │   │   ├── ps.1
+    │   │   │   ├── pwd.1
+    │   │   │   ├── rc.1
+    │   │   │   ├── rev.1
+    │   │   │   ├── rm.1
+    │   │   │   ├── rmdir.1
+    │   │   │   ├── roff.1
+    │   │   │   ├── sh.1
+    │   │   │   ├── shift.1
+    │   │   │   ├── size.1
+    │   │   │   ├── sleep.1
+    │   │   │   ├── sort.1
+    │   │   │   ├── spell.1
+    │   │   │   ├── split.1
+    │   │   │   ├── strip.1
+    │   │   │   ├── stty.1
+    │   │   │   ├── tee.1
+    │   │   │   ├── time.1
+    │   │   │   ├── tp.1
+    │   │   │   ├── tr.1
+    │   │   │   ├── troff.1
+    │   │   │   ├── tty.1
+    │   │   │   ├── typo.1
+    │   │   │   ├── uniq.1
+    │   │   │   ├── wait.1
+    │   │   │   ├── wc.1
+    │   │   │   ├── who.1
+    │   │   │   ├── write.1
+    │   │   │   └── yacc.1
+    │   │   ├── man2
+    │   │   │   ├── break.2
+    │   │   │   ├── chdir.2
+    │   │   │   ├── chmod.2
+    │   │   │   ├── chown.2
+    │   │   │   ├── close.2
+    │   │   │   ├── creat.2
+    │   │   │   ├── csw.2
+    │   │   │   ├── dup.2
+    │   │   │   ├── exec.2
+    │   │   │   ├── exit.2
+    │   │   │   ├── fork.2
+    │   │   │   ├── fstat.2
+    │   │   │   ├── getgid.2
+    │   │   │   ├── getpid.2
+    │   │   │   ├── getuid.2
+    │   │   │   ├── gtty.2
+    │   │   │   ├── indir.2
+    │   │   │   ├── intro.2
+    │   │   │   ├── kill.2
+    │   │   │   ├── link.2
+    │   │   │   ├── mknod.2
+    │   │   │   ├── mount.2
+    │   │   │   ├── nice.2
+    │   │   │   ├── open.2
+    │   │   │   ├── pipe.2
+    │   │   │   ├── profil.2
+    │   │   │   ├── ptrace.2
+    │   │   │   ├── read.2
+    │   │   │   ├── seek.2
+    │   │   │   ├── setgid.2
+    │   │   │   ├── setuid.2
+    │   │   │   ├── signal.2
+    │   │   │   ├── sleep.2
+    │   │   │   ├── stat.2
+    │   │   │   ├── stime.2
+    │   │   │   ├── stty.2
+    │   │   │   ├── sync.2
+    │   │   │   ├── time.2
+    │   │   │   ├── times.2
+    │   │   │   ├── umount.2
+    │   │   │   ├── unlink.2
+    │   │   │   ├── wait.2
+    │   │   │   └── write.2
+    │   │   ├── man3
+    │   │   │   ├── abort.3
+    │   │   │   ├── abs.3
+    │   │   │   ├── alloc.3
+    │   │   │   ├── atan.3
+    │   │   │   ├── atof.3
+    │   │   │   ├── atoi.3
+    │   │   │   ├── crypt.3
+    │   │   │   ├── ctime.3
+    │   │   │   ├── ecvt.3
+    │   │   │   ├── end.3
+    │   │   │   ├── exp.3
+    │   │   │   ├── floor.3
+    │   │   │   ├── fmod.3
+    │   │   │   ├── fptrap.3
+    │   │   │   ├── gamma.3
+    │   │   │   ├── getarg.3
+    │   │   │   ├── getc.3
+    │   │   │   ├── getchar.3
+    │   │   │   ├── getpw.3
+    │   │   │   ├── hmul.3
+    │   │   │   ├── ierror.3
+    │   │   │   ├── ldiv.3
+    │   │   │   ├── locv.3
+    │   │   │   ├── log.3
+    │   │   │   ├── monitor.3
+    │   │   │   ├── nargs.3
+    │   │   │   ├── nlist.3
+    │   │   │   ├── perror.3
+    │   │   │   ├── pow.3
+    │   │   │   ├── printf.3
+    │   │   │   ├── putc.3
+    │   │   │   ├── putchar.3
+    │   │   │   ├── qsort.3
+    │   │   │   ├── rand.3
+    │   │   │   ├── reset.3
+    │   │   │   ├── setfil.3
+    │   │   │   ├── sin.3
+    │   │   │   ├── sqrt.3
+    │   │   │   └── ttyn.3
+    │   │   ├── man4
+    │   │   │   ├── cat.4
+    │   │   │   ├── dc.4
+    │   │   │   ├── dh.4
+    │   │   │   ├── dn.4
+    │   │   │   ├── dp.4
+    │   │   │   ├── hp.4
+    │   │   │   ├── hs.4
+    │   │   │   ├── ht.4
+    │   │   │   ├── kl.4
+    │   │   │   ├── lp.4
+    │   │   │   ├── mem.4
+    │   │   │   ├── pc.4
+    │   │   │   ├── rf.4
+    │   │   │   ├── rk.4
+    │   │   │   ├── rp.4
+    │   │   │   ├── tc.4
+    │   │   │   ├── tm.4
+    │   │   │   └── tty.4
+    │   │   ├── man5
+    │   │   │   ├── a.out.5
+    │   │   │   ├── archive.5
+    │   │   │   ├── ascii.5
+    │   │   │   ├── core.5
+    │   │   │   ├── directory.5
+    │   │   │   ├── dump.5
+    │   │   │   ├── fs.5
+    │   │   │   ├── greek.5
+    │   │   │   ├── group.5
+    │   │   │   ├── mtab.5
+    │   │   │   ├── passwd.5
+    │   │   │   ├── tabs.5
+    │   │   │   ├── tp.5
+    │   │   │   ├── ttys.5
+    │   │   │   ├── utmp.5
+    │   │   │   └── wtmp.5
+    │   │   ├── man6
+    │   │   │   ├── azel.6
+    │   │   │   ├── bj.6
+    │   │   │   ├── cal.6
+    │   │   │   ├── chess.6
+    │   │   │   ├── col.6
+    │   │   │   ├── cubic.6
+    │   │   │   ├── factor.6
+    │   │   │   ├── fed.6
+    │   │   │   ├── form.6
+    │   │   │   ├── graph.6
+    │   │   │   ├── gsi.6
+    │   │   │   ├── m6.6
+    │   │   │   ├── moo.6
+    │   │   │   ├── plot.6
+    │   │   │   ├── primes.6
+    │   │   │   ├── quiz.6
+    │   │   │   ├── sky.6
+    │   │   │   ├── sno.6
+    │   │   │   ├── speak.6
+    │   │   │   ├── spline.6
+    │   │   │   ├── tbl.6
+    │   │   │   ├── tmg.6
+    │   │   │   ├── ttt.6
+    │   │   │   ├── units.6
+    │   │   │   └── wump.6
+    │   │   ├── man7
+    │   │   │   ├── cr.7
+    │   │   │   ├── ms.7
+    │   │   │   ├── plot.7
+    │   │   │   └── salloc.7
+    │   │   └── man8
+    │   │       ├── ac.8
+    │   │       ├── bproc.8
+    │   │       ├── chgrp.8
+    │   │       ├── chown.8
+    │   │       ├── clri.8
+    │   │       ├── crash.8
+    │   │       ├── cron.8
+    │   │       ├── dcheck.8
+    │   │       ├── df.8
+    │   │       ├── dpd.8
+    │   │       ├── dump.8
+    │   │       ├── getty.8
+    │   │       ├── glob.8
+    │   │       ├── icheck.8
+    │   │       ├── init.8
+    │   │       ├── lpd.8
+    │   │       ├── mkfs.8
+    │   │       ├── mknod.8
+    │   │       ├── mount.8
+    │   │       ├── ncheck.8
+    │   │       ├── restor.8
+    │   │       ├── sa.8
+    │   │       ├── su.8
+    │   │       ├── sync.8
+    │   │       ├── umount.8
+    │   │       ├── update.8
+    │   │       └── wall.8
+    │   ├── rat
+    │   │   └── rat
+    │   ├── secur
+    │   │   └── secur
+    │   ├── start
+    │   │   ├── cover
+    │   │   └── start
+    │   ├── unix
+    │   │   ├── p0
+    │   │   ├── p1
+    │   │   ├── p2
+    │   │   ├── p3
+    │   │   ├── p4
+    │   │   ├── p5
+    │   │   └── p6
+    │   └── yacc
+    │       ├── rpss
+    │       ├── ss0
+    │       ├── ss1
+    │       ├── ss2
+    │       ├── ss3
+    │       ├── ss4
+    │       ├── ss5
+    │       ├── ss6c
+    │       ├── ss6r
+    │       ├── ss7
+    │       ├── ss8
+    │       ├── ss9
+    │       ├── ssa
+    │       ├── ssb
+    │       ├── ssc
+    │       └── ssd
+    ├── fort
+    │   ├── errors
+    │   └── fc1
+    ├── games
+    │   ├── bj
+    │   ├── chess
+    │   ├── cubic
+    │   ├── moo
+    │   ├── ttt
+    │   ├── ttt.k
+    │   └── wump
+    ├── ken
+    ├── lib
+    │   ├── aign
+    │   ├── atab
+    │   ├── book
+    │   ├── cign
+    │   ├── ctab
+    │   ├── eign
+    │   ├── etab
+    │   ├── lib.b
+    │   ├── quiz
+    │   │   ├── africa
+    │   │   ├── america
+    │   │   ├── bard
+    │   │   ├── collectives
+    │   │   ├── europe
+    │   │   ├── inca
+    │   │   ├── index
+    │   │   ├── midearth
+    │   │   ├── misspell
+    │   │   ├── murders
+    │   │   ├── poetry
+    │   │   ├── posneg
+    │   │   ├── pres
+    │   │   ├── seq-easy
+    │   │   ├── seq-hard
+    │   │   ├── sov
+    │   │   └── state
+    │   ├── ratfor
+    │   ├── salt
+    │   ├── suftab
+    │   ├── tmac.r
+    │   ├── tmac.s
+    │   ├── tmg
+    │   ├── tmga
+    │   ├── tmgb
+    │   ├── tmgc
+    │   ├── units
+    │   └── w2006
+    ├── lpd
+    ├── mdec
+    │   ├── dldr
+    │   ├── dtf
+    │   ├── hboot
+    │   ├── hpuboot
+    │   ├── hthp
+    │   ├── htrk
+    │   ├── htrp
+    │   ├── mboot
+    │   ├── mcopy
+    │   ├── mem
+    │   ├── reset
+    │   ├── rkf
+    │   ├── rkuboot
+    │   ├── rpuboot
+    │   ├── tboot
+    │   ├── tcf
+    │   ├── tmhp
+    │   ├── tmrk
+    │   ├── tmrp
+    │   └── uboot
+    ├── pub
+    │   ├── ascii
+    │   ├── deverr
+    │   ├── greek
+    │   ├── hanoi
+    │   ├── kbd
+    │   └── tabs
+    ├── source
+    │   ├── as
+    │   │   ├── as11.s
+    │   │   ├── as12.s
+    │   │   ├── as13.s
+    │   │   ├── as14.s
+    │   │   ├── as15.s
+    │   │   ├── as16.s
+    │   │   ├── as17.s
+    │   │   ├── as18.s
+    │   │   ├── as19.s
+    │   │   ├── as21.s
+    │   │   ├── as22.s
+    │   │   ├── as23.s
+    │   │   ├── as24.s
+    │   │   ├── as25.s
+    │   │   ├── as26.s
+    │   │   ├── as27.s
+    │   │   ├── as28.s
+    │   │   ├── as29.s
+    │   │   └── run
+    │   ├── c
+    │   │   ├── c00.c
+    │   │   ├── c01.c
+    │   │   ├── c02.c
+    │   │   ├── c03.c
+    │   │   ├── c04.c
+    │   │   ├── c05.c
+    │   │   ├── c0h.c
+    │   │   ├── c0t.s
+    │   │   ├── c10.c
+    │   │   ├── c11.c
+    │   │   ├── c12.c
+    │   │   ├── c13.c
+    │   │   ├── c1h.c
+    │   │   ├── c1t.s
+    │   │   ├── c20.c
+    │   │   ├── c21.c
+    │   │   ├── c2h.c
+    │   │   ├── cvopt.c
+    │   │   ├── run
+    │   │   └── table.s
+    │   ├── cref
+    │   │   ├── ccmn.h
+    │   │   ├── index
+    │   │   │   ├── ecmn.h
+    │   │   │   ├── econs.h
+    │   │   │   ├── ind0.c
+    │   │   │   ├── ind1.c
+    │   │   │   └── ind2.c
+    │   │   ├── mcons.h
+    │   │   ├── run
+    │   │   ├── src
+    │   │   │   ├── acts.c
+    │   │   │   ├── crpost.c
+    │   │   │   ├── dr.c
+    │   │   │   ├── put.c
+    │   │   │   └── upost.c
+    │   │   └── tab
+    │   │       ├── atable
+    │   │       ├── ctable
+    │   │       ├── etable
+    │   │       └── mtab.c
+    │   ├── fort
+    │   │   ├── f1
+    │   │   │   ├── f11.s
+    │   │   │   ├── f12.s
+    │   │   │   ├── f13.s
+    │   │   │   ├── f14.s
+    │   │   │   ├── f15.s
+    │   │   │   ├── f16.s
+    │   │   │   └── f17.s
+    │   │   ├── f2
+    │   │   │   ├── f21.s
+    │   │   │   ├── f22.s
+    │   │   │   ├── f23.s
+    │   │   │   └── f24.s
+    │   │   ├── f3
+    │   │   │   ├── f31.s
+    │   │   │   ├── f32.s
+    │   │   │   ├── f33.s
+    │   │   │   ├── f34.s
+    │   │   │   ├── f35.s
+    │   │   │   ├── f36.s
+    │   │   │   ├── f37.s
+    │   │   │   ├── f38.s
+    │   │   │   └── f39.s
+    │   │   ├── f4
+    │   │   │   ├── f41.s
+    │   │   │   ├── f42.s
+    │   │   │   ├── f43.s
+    │   │   │   ├── f44.s
+    │   │   │   ├── f45.s
+    │   │   │   ├── f46.s
+    │   │   │   └── f47.s
+    │   │   ├── fx
+    │   │   │   ├── fhd.s
+    │   │   │   ├── fx1.s
+    │   │   │   ├── fx2.s
+    │   │   │   ├── fx3.s
+    │   │   │   ├── fx4.s
+    │   │   │   ├── fx5.s
+    │   │   │   ├── fx6.s
+    │   │   │   ├── fx7.s
+    │   │   │   ├── fx8.s
+    │   │   │   ├── fx9.s
+    │   │   │   ├── fxa.s
+    │   │   │   ├── fxb.s
+    │   │   │   ├── fxc.s
+    │   │   │   ├── fxd.s
+    │   │   │   ├── fxe.s
+    │   │   │   ├── fxf.s
+    │   │   │   ├── fxg.s
+    │   │   │   ├── fxh.s
+    │   │   │   ├── fxi.s
+    │   │   │   └── fxx.s
+    │   │   ├── io
+    │   │   │   ├── io1.s
+    │   │   │   ├── io2.s
+    │   │   │   ├── io3.s
+    │   │   │   ├── io4.s
+    │   │   │   ├── io5.s
+    │   │   │   ├── io6.s
+    │   │   │   ├── io7.s
+    │   │   │   └── iox.s
+    │   │   ├── rt
+    │   │   │   ├── r0.s
+    │   │   │   ├── r1.s
+    │   │   │   ├── r2.s
+    │   │   │   ├── r3.s
+    │   │   │   ├── r4.s
+    │   │   │   ├── r5.s
+    │   │   │   ├── r6.s
+    │   │   │   ├── r7.s
+    │   │   │   ├── r8.s
+    │   │   │   ├── r9.s
+    │   │   │   ├── ra.s
+    │   │   │   ├── rb.s
+    │   │   │   ├── rc.s
+    │   │   │   ├── rd.s
+    │   │   │   ├── re.s
+    │   │   │   ├── rf.s
+    │   │   │   ├── rg.s
+    │   │   │   ├── rh.s
+    │   │   │   └── rx.s
+    │   │   ├── rt1
+    │   │   │   ├── abs.s
+    │   │   │   ├── aimag.s
+    │   │   │   ├── aint.s
+    │   │   │   ├── alog.s
+    │   │   │   ├── alog10.s
+    │   │   │   ├── amax0.s
+    │   │   │   ├── amax1.s
+    │   │   │   ├── amin0.s
+    │   │   │   ├── amin1.s
+    │   │   │   ├── amod.s
+    │   │   │   ├── atan.s
+    │   │   │   ├── atan2.s
+    │   │   │   ├── cabs.s
+    │   │   │   ├── ccos.f
+    │   │   │   ├── cexp.s
+    │   │   │   ├── clog.f
+    │   │   │   ├── cmplx.s
+    │   │   │   ├── conjg.s
+    │   │   │   ├── cos.s
+    │   │   │   ├── csin.f
+    │   │   │   ├── csqrt.f
+    │   │   │   ├── dble.s
+    │   │   │   ├── dccos.f
+    │   │   │   ├── dclog.f
+    │   │   │   ├── dcsin.f
+    │   │   │   ├── dcsqrt.f
+    │   │   │   ├── dim.s
+    │   │   │   ├── dimag.s
+    │   │   │   ├── exp.s
+    │   │   │   ├── float.s
+    │   │   │   ├── iabs.s
+    │   │   │   ├── idim.s
+    │   │   │   ├── idint.s
+    │   │   │   ├── ierr.s
+    │   │   │   ├── ifix.s
+    │   │   │   ├── isign.s
+    │   │   │   ├── mod.s
+    │   │   │   ├── real.s
+    │   │   │   ├── sign.s
+    │   │   │   ├── sin.s
+    │   │   │   ├── sngl.s
+    │   │   │   ├── sqrt.s
+    │   │   │   └── tanh.f
+    │   │   ├── rt2
+    │   │   │   ├── ctime.s
+    │   │   │   ├── getarg.s
+    │   │   │   ├── nice.s
+    │   │   │   ├── openrw.s
+    │   │   │   ├── plot.s
+    │   │   │   ├── rand.s
+    │   │   │   ├── rio.s
+    │   │   │   ├── setfil.s
+    │   │   │   └── uio.s
+    │   │   ├── run
+    │   │   └── sum.s
+    │   ├── iolib
+    │   │   ├── alloc.c
+    │   │   ├── calloc.c
+    │   │   ├── cclose.c
+    │   │   ├── ceof.c
+    │   │   ├── cerror.c
+    │   │   ├── cexit.c
+    │   │   ├── cflush.c
+    │   │   ├── cfree.c
+    │   │   ├── cgetc.c
+    │   │   ├── ciodec.c
+    │   │   ├── clenf.c
+    │   │   ├── copen.c
+    │   │   ├── cputc.c
+    │   │   ├── cwrd.c
+    │   │   ├── dummy.s
+    │   │   ├── ftoa.c
+    │   │   ├── getch.c
+    │   │   ├── gets.c
+    │   │   ├── getvec.c
+    │   │   ├── iehzap.c
+    │   │   ├── makbuf.c
+    │   │   ├── maktab.c
+    │   │   ├── nexch.c
+    │   │   ├── nodig.c
+    │   │   ├── printf.c
+    │   │   ├── putch.c
+    │   │   ├── puts.c
+    │   │   ├── relvec.c
+    │   │   ├── revput.c
+    │   │   ├── run
+    │   │   ├── scan1.c
+    │   │   ├── scan2.c
+    │   │   ├── scan3.c
+    │   │   ├── system.c
+    │   │   ├── tmpnam.c
+    │   │   ├── unget.c
+    │   │   ├── unprnt.s
+    │   │   └── wdleng.c
+    │   ├── m6
+    │   │   ├── m6.h
+    │   │   ├── m61.c
+    │   │   ├── m62.c
+    │   │   ├── m63.c
+    │   │   ├── m64.c
+    │   │   ├── m65.c
+    │   │   ├── m66.c
+    │   │   ├── m67.c
+    │   │   └── run
+    │   ├── mdec
+    │   │   ├── dldr.s
+    │   │   ├── dtf.s
+    │   │   ├── fsboot.s
+    │   │   ├── hp.s
+    │   │   ├── ht.s
+    │   │   ├── mboot.s
+    │   │   ├── mcopy.s
+    │   │   ├── reset.s
+    │   │   ├── rhp.s
+    │   │   ├── rk.s
+    │   │   ├── rkf.s
+    │   │   ├── rp.s
+    │   │   ├── rrk.s
+    │   │   ├── rrp.s
+    │   │   ├── run
+    │   │   ├── tboot.s
+    │   │   ├── tc.s
+    │   │   ├── tcf.s
+    │   │   ├── tm.s
+    │   │   ├── tpboot.s
+    │   │   ├── tty.s
+    │   │   ├── uboot.s
+    │   │   ├── whp.s
+    │   │   ├── wrk.s
+    │   │   └── wrp.s
+    │   ├── rat
+    │   │   ├── lex.c
+    │   │   ├── r.g
+    │   │   ├── r.h
+    │   │   ├── r1.c
+    │   │   ├── r2.c
+    │   │   └── run
+    │   ├── run
+    │   ├── s1
+    │   │   ├── ac.c
+    │   │   ├── ar.s
+    │   │   ├── banner.c
+    │   │   ├── bas.s
+    │   │   ├── bc.y
+    │   │   ├── bcd.c
+    │   │   ├── cal.c
+    │   │   ├── cat.s
+    │   │   ├── cc.c
+    │   │   ├── cdb1.c
+    │   │   ├── cdb2.c
+    │   │   ├── chgrp.s
+    │   │   ├── chmod.c
+    │   │   ├── chown.s
+    │   │   ├── clri.s
+    │   │   ├── cmp.c
+    │   │   ├── col.c
+    │   │   ├── comm.c
+    │   │   ├── cp.c
+    │   │   ├── cpall.c
+    │   │   ├── cron.c
+    │   │   ├── crypt.c
+    │   │   ├── date.c
+    │   │   ├── db1.s
+    │   │   ├── db2.s
+    │   │   ├── db3.s
+    │   │   ├── db4.s
+    │   │   ├── dc1.s
+    │   │   ├── dc2.s
+    │   │   ├── dc3.s
+    │   │   ├── dc4.s
+    │   │   ├── dc5.s
+    │   │   ├── dcheck.c
+    │   │   ├── dd.c
+    │   │   ├── df.c
+    │   │   ├── diff1.c
+    │   │   ├── diff2.s
+    │   │   ├── dsw.s
+    │   │   ├── du.s
+    │   │   ├── dump.c
+    │   │   ├── echo.c
+    │   │   ├── ed.c
+    │   │   ├── exit.c
+    │   │   ├── fc.c
+    │   │   ├── fed1.s
+    │   │   ├── fed2.s
+    │   │   ├── fed3.s
+    │   │   ├── file.c
+    │   │   ├── find.c
+    │   │   ├── form1.s
+    │   │   ├── form2.s
+    │   │   ├── form3.s
+    │   │   ├── form4.s
+    │   │   ├── form5.s
+    │   │   ├── form6.s
+    │   │   ├── getty.c
+    │   │   ├── glob.c
+    │   │   ├── goto.c
+    │   │   ├── grep.c
+    │   │   ├── gsi.c
+    │   │   ├── icheck.c
+    │   │   ├── if.c
+    │   │   ├── init.c
+    │   │   ├── kill.s
+    │   │   ├── ld.c
+    │   │   ├── ln.c
+    │   │   ├── login.c
+    │   │   ├── lpd.s
+    │   │   ├── lpr.c
+    │   │   ├── ls.c
+    │   │   └── run
+    │   ├── s2
+    │   │   ├── mail.c
+    │   │   ├── mesg.c
+    │   │   ├── mkdir.s
+    │   │   ├── mkfs.c
+    │   │   ├── mknod.c
+    │   │   ├── mount.c
+    │   │   ├── mv.c
+    │   │   ├── ncheck.c
+    │   │   ├── newgrp.c
+    │   │   ├── nice.c
+    │   │   ├── nm.c
+    │   │   ├── nohup.c
+    │   │   ├── od.c
+    │   │   ├── opr.c
+    │   │   ├── passwd.c
+    │   │   ├── pfe.s
+    │   │   ├── pr.c
+    │   │   ├── prof.c
+    │   │   ├── ps.c
+    │   │   ├── ptx.c
+    │   │   ├── pwd.c
+    │   │   ├── quiz.c
+    │   │   ├── rc.c
+    │   │   ├── restor.c
+    │   │   ├── rew.s
+    │   │   ├── rm.c
+    │   │   ├── rmdir.s
+    │   │   ├── run
+    │   │   ├── sa.c
+    │   │   ├── sh.c
+    │   │   ├── size.c
+    │   │   ├── sleep.c
+    │   │   ├── sort.c
+    │   │   ├── split.c
+    │   │   ├── strip.s
+    │   │   ├── stty.c
+    │   │   ├── su.c
+    │   │   ├── sum.s
+    │   │   ├── sync.c
+    │   │   ├── tbl.c
+    │   │   ├── tee.c
+    │   │   ├── time.s
+    │   │   ├── tp1.s
+    │   │   ├── tp2.s
+    │   │   ├── tp3.s
+    │   │   ├── tp4.s
+    │   │   ├── tr.c
+    │   │   ├── tty.s
+    │   │   ├── typo.c
+    │   │   ├── umount.c
+    │   │   ├── uniq.c
+    │   │   ├── units.c
+    │   │   ├── update.s
+    │   │   ├── usort.c
+    │   │   ├── wall.c
+    │   │   ├── wc.c
+    │   │   ├── who.c
+    │   │   └── write.s
+    │   ├── s3
+    │   │   ├── atan.s
+    │   │   ├── crypt.s
+    │   │   ├── dpadd.s
+    │   │   ├── ecvt.s
+    │   │   ├── exp.s
+    │   │   ├── fakfp.s
+    │   │   ├── floor.s
+    │   │   ├── fmod.s
+    │   │   ├── fp1.s
+    │   │   ├── fp2.s
+    │   │   ├── fp3.s
+    │   │   ├── fpx.s
+    │   │   ├── gamma.s
+    │   │   ├── get.s
+    │   │   ├── ldiv.s
+    │   │   ├── log.s
+    │   │   ├── mesg.s
+    │   │   ├── pow.s
+    │   │   ├── put.s
+    │   │   ├── rand.s
+    │   │   ├── run
+    │   │   ├── savr5.s
+    │   │   ├── sin.s
+    │   │   ├── sqrt.s
+    │   │   ├── switch.s
+    │   │   └── ttyn.s
+    │   ├── s4
+    │   │   ├── abort.s
+    │   │   ├── abs.s
+    │   │   ├── alloc.s
+    │   │   ├── atof.s
+    │   │   ├── atoi.c
+    │   │   ├── cerror.s
+    │   │   ├── chdir.s
+    │   │   ├── chmod.s
+    │   │   ├── chown.s
+    │   │   ├── close.s
+    │   │   ├── creat.s
+    │   │   ├── crt0.s
+    │   │   ├── csv.s
+    │   │   ├── ctime.c
+    │   │   ├── dup.s
+    │   │   ├── errlst.c
+    │   │   ├── execl.s
+    │   │   ├── execv.s
+    │   │   ├── exit.s
+    │   │   ├── fcrt0.s
+    │   │   ├── ffltpr.s
+    │   │   ├── fltpr.s
+    │   │   ├── fork.s
+    │   │   ├── fstat.s
+    │   │   ├── getc.s
+    │   │   ├── getchr.s
+    │   │   ├── getcsw.s
+    │   │   ├── getgid.s
+    │   │   ├── getpid.s
+    │   │   ├── getpw.c
+    │   │   ├── getuid.s
+    │   │   ├── gtty.s
+    │   │   ├── hmul.s
+    │   │   ├── kill.s
+    │   │   ├── ladd.s
+    │   │   ├── ldfps.s
+    │   │   ├── link.s
+    │   │   ├── locv.s
+    │   │   ├── ltod.s
+    │   │   └── run
+    │   ├── s5
+    │   │   ├── makdir.s
+    │   │   ├── mcount.s
+    │   │   ├── mcrt0.s
+    │   │   ├── mdate.s
+    │   │   ├── mknod.s
+    │   │   ├── mon.c
+    │   │   ├── mount.s
+    │   │   ├── nargs.s
+    │   │   ├── nice.s
+    │   │   ├── nlist.s
+    │   │   ├── open.s
+    │   │   ├── perror.c
+    │   │   ├── pipe.s
+    │   │   ├── printf.s
+    │   │   ├── prof.s
+    │   │   ├── ptrace.s
+    │   │   ├── putc.s
+    │   │   ├── putchr.s
+    │   │   ├── qsort.c
+    │   │   ├── read.s
+    │   │   ├── reset.s
+    │   │   ├── rin.c
+    │   │   ├── run
+    │   │   ├── sbrk.s
+    │   │   ├── seek.s
+    │   │   ├── setgid.s
+    │   │   ├── setuid.s
+    │   │   ├── signal.s
+    │   │   ├── sleep.s
+    │   │   ├── stat.s
+    │   │   ├── stime.s
+    │   │   ├── stty.s
+    │   │   ├── sync.s
+    │   │   ├── time.s
+    │   │   ├── times.s
+    │   │   ├── umount.s
+    │   │   ├── unlink.s
+    │   │   ├── wait.s
+    │   │   └── write.s
+    │   ├── s7
+    │   │   ├── ne.g
+    │   │   ├── ne.h
+    │   │   ├── ne1.c
+    │   │   ├── ne2.c
+    │   │   ├── ne3.c
+    │   │   ├── ne4.c
+    │   │   ├── ne5.c
+    │   │   ├── ne6.c
+    │   │   ├── nelex.c
+    │   │   ├── nroff1.s
+    │   │   ├── nroff2.s
+    │   │   ├── nroff3.s
+    │   │   ├── nroff4.s
+    │   │   ├── nroff5.s
+    │   │   ├── nroff8.s
+    │   │   ├── roff1.s
+    │   │   ├── roff2.s
+    │   │   ├── roff3.s
+    │   │   ├── roff4.s
+    │   │   ├── roff5.s
+    │   │   ├── roff7.s
+    │   │   ├── roff8.s
+    │   │   ├── run
+    │   │   └── suftab.s
+    │   ├── salloc
+    │   │   ├── alloc1.s
+    │   │   ├── alloc2.s
+    │   │   ├── alloc3.s
+    │   │   ├── altch.s
+    │   │   ├── bsp.s
+    │   │   ├── bword.s
+    │   │   ├── getch.s
+    │   │   ├── getwd.s
+    │   │   ├── length.s
+    │   │   ├── rewind.s
+    │   │   ├── run
+    │   │   └── zero.s
+    │   ├── sno
+    │   │   ├── run
+    │   │   ├── sno.h
+    │   │   ├── sno1.c
+    │   │   ├── sno2.c
+    │   │   ├── sno3.c
+    │   │   └── sno4.c
+    │   ├── tmg
+    │   │   ├── run
+    │   │   ├── tmga.s
+    │   │   ├── tmgb
+    │   │   │   ├── any.s
+    │   │   │   ├── append.s
+    │   │   │   ├── arith.s
+    │   │   │   ├── bundle.s
+    │   │   │   ├── char.s
+    │   │   │   ├── copy.s
+    │   │   │   ├── cstr.s
+    │   │   │   ├── ctest.s
+    │   │   │   ├── decmal.s
+    │   │   │   ├── discd.s
+    │   │   │   ├── emit.s
+    │   │   │   ├── end.s
+    │   │   │   ├── f.s
+    │   │   │   ├── find.s
+    │   │   │   ├── getnam.s
+    │   │   │   ├── ignore.s
+    │   │   │   ├── inc.s
+    │   │   │   ├── infix.s
+    │   │   │   ├── jget.s
+    │   │   │   ├── lvrv.s
+    │   │   │   ├── mult.s
+    │   │   │   ├── octal.s
+    │   │   │   ├── params.s
+    │   │   │   ├── push.s
+    │   │   │   ├── putcal.s
+    │   │   │   ├── putdec.s
+    │   │   │   ├── putoct.s
+    │   │   │   ├── px.s
+    │   │   │   ├── reln.s
+    │   │   │   ├── shift.s
+    │   │   │   ├── stack.s
+    │   │   │   ├── string.s
+    │   │   │   ├── table.s
+    │   │   │   ├── tq.s
+    │   │   │   ├── trace.s
+    │   │   │   ├── trans.s
+    │   │   │   ├── tx.s
+    │   │   │   └── unary.s
+    │   │   ├── tmgc.s
+    │   │   ├── tmgl.s
+    │   │   └── tmgl.t
+    │   └── yacc
+    │       ├── lib
+    │       │   ├── main.c
+    │       │   ├── parser.c
+    │       │   ├── zacc.c
+    │       │   ├── zerr.c
+    │       │   └── zinit.c
+    │       ├── run
+    │       └── source
+    │           ├── dextern
+    │           ├── y0.c
+    │           ├── y1.c
+    │           ├── y2.c
+    │           ├── y3.c
+    │           ├── y4.c
+    │           └── y5.c
+    ├── sys
+    │   ├── buf.h
+    │   ├── conf
+    │   │   ├── data.s
+    │   │   ├── m40.s
+    │   │   ├── m45.s
+    │   │   ├── mkconf.c
+    │   │   ├── sysfix
+    │   │   └── sysfix.c
+    │   ├── conf.h
+    │   ├── dmr
+    │   │   ├── bio.c
+    │   │   ├── cat.c
+    │   │   ├── dc.c
+    │   │   ├── dh.c
+    │   │   ├── dhdm.c
+    │   │   ├── dhfdm.c
+    │   │   ├── dn.c
+    │   │   ├── dp.c
+    │   │   ├── hp.c
+    │   │   ├── hs.c
+    │   │   ├── ht.c
+    │   │   ├── kl.c
+    │   │   ├── lp.c
+    │   │   ├── mem.c
+    │   │   ├── partab.c
+    │   │   ├── pc.c
+    │   │   ├── rf.c
+    │   │   ├── rk.c
+    │   │   ├── rp.c
+    │   │   ├── sys.c
+    │   │   ├── tc.c
+    │   │   ├── tm.c
+    │   │   ├── tty.c
+    │   │   ├── vs.c
+    │   │   └── vt.c
+    │   ├── file.h
+    │   ├── filsys.h
+    │   ├── ino.h
+    │   ├── inode.h
+    │   ├── ken
+    │   │   ├── alloc.c
+    │   │   ├── clock.c
+    │   │   ├── fio.c
+    │   │   ├── iget.c
+    │   │   ├── main.c
+    │   │   ├── malloc.c
+    │   │   ├── nami.c
+    │   │   ├── pipe.c
+    │   │   ├── prf.c
+    │   │   ├── rdwri.c
+    │   │   ├── sig.c
+    │   │   ├── slp.c
+    │   │   ├── subr.c
+    │   │   ├── sys1.c
+    │   │   ├── sys2.c
+    │   │   ├── sys3.c
+    │   │   ├── sys4.c
+    │   │   ├── sysent.c
+    │   │   ├── text.c
+    │   │   └── trap.c
+    │   ├── lib1
+    │   ├── lib2
+    │   ├── param.h
+    │   ├── proc.h
+    │   ├── reg.h
+    │   ├── run
+    │   ├── seg.h
+    │   ├── systm.h
+    │   ├── text.h
+    │   ├── tty.h
+    │   └── user.h
+    └── tmp
+
+81 directories, 1224 files
